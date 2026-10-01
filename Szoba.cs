@@ -37,7 +37,7 @@ namespace SzallodaApp
             return $"Szoba [Szobaszam] | Alapár: [Alapar] Ft/éj";
         }
         }
-
+       public override int ArKiszamitas(int ejszakakSzama
 
 
 
