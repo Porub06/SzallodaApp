@@ -17,10 +17,29 @@ namespace SzallodaApp
             }
         }
 
+        //Konstruktor
         public virtual string szobaszamesalapar()
         {
             return $"A szoba száma: {SzobaSzam}, az alapár: {Alapar}";
         }
+
+        //Metódusok
+
+
+        public virtual int ArKiszamitas(int ejszakakSzama)
+        {
+            int ejsz = ejszakakSzama * Alapar;
+            return ejsz;
+        }
+
+        public override string ToString()
+        {
+            return $"Szoba [Szobaszam] | Alapár: [Alapar] Ft/éj";
+        }
+        }
+
+
+
 
     }
 }
